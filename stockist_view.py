@@ -10,6 +10,7 @@ df=df.sort_values('Product')
 total_sales = df.groupby('Product')["Net Profit"].sum()
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
+server=app.server
 
 app.layout = html.Div([
     html.H1("Stockist's View"),
