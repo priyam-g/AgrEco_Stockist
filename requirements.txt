@@ -31,8 +31,6 @@ dash-table==5.0.0
 debugpy==1.6.3
 decorator==5.1.1
 defusedxml==0.7.1
-discord==2.2.3
-discord.py==2.2.3
 entrypoints==0.4
 et-xmlfile==1.1.0
 exceptiongroup==1.1.0
